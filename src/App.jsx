@@ -11,8 +11,7 @@ import Map from './components/Map/Map'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FooterLast from './components/FooterLast/FooterLast'
-import Services1 from './components/Services1/Services1'
-import Services2 from './components/Services2/Services2'
+import Services from './components/Services/Services'
 
 function App() {
   return (
@@ -22,8 +21,7 @@ function App() {
        <Banner></Banner>
        <Supplier></Supplier>
        <SupplilerImg></SupplilerImg>
-       <Services1></Services1>
-       <Services2></Services2>
+       <Services></Services>
        <Company></Company>
        <NamePlate></NamePlate>
        <ImageBox></ImageBox>

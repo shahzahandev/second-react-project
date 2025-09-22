@@ -7,14 +7,14 @@ import Flexbox from '../Flexbox/Flexbox'
 
 const NamePlate = () => {
     return (
-        <div className='py-[117px]'>
+        <div className='py-[70px] md:py-[117px]'>
             <Container>
-                <Flexbox className="justify-between">
+                <div className="md:flex justify-between">
                     <img src={NamePlate1} alt="" />
                     <img src={NamePlate2} alt="" />
                     <img src={NamePlate3} alt="" />
                     <img src={NamePlate4} alt="" />
-                </Flexbox>
+                </div>
             </Container>
         </div>
     )
