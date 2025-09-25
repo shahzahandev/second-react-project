@@ -4,24 +4,24 @@ import { FaGreaterThan } from "react-icons/fa";
 
 const ImageBox = () => {
     return (
-        <div className="py-[50px] md:py-[110px] bg-[#F0F0F0]">
+        <div className="pt-[30px] md:pt-[110px] pb-[10px] md:pb-[110px] bg-[#F0F0F0]">
             <Container>
-                <div className="md:flex space-y-5 md:space-y-0 justify-between items-center inline-block">
-                    <div className="z-[1] relative bg-[url(./assets/imge1.png)] bg-no-repeat bg-center bg-cover pt-[75px] px-[45px]">
+                <div className="md:flex space-y-2 md:space-y-0 justify-between items-center inline-block">
+                    <div className="z-[1] relative bg-[url(./assets/imge1.png)] bg-no-repeat bg-center bg-cover pt-[50px] md:pt-[75px] px-[45px]">
                         <div className=" z-[-1] absolute top-0 left-0 w-full h-full bg-black/60"></div>
                         <div>
                             <h2 className="font-primary font-bold text-[20px] md:text-[24px] text-white w-[249px]">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h2>
                             <button className="font-primary font-semibold text-white text-[12px] py-[10px] px-[23px] bg-white/60 mt-[20px] md:mt-[52px] mb-[55px] transition-all duration-300 ease-in hover:bg-[#F40404]  hover:text-white">Read more</button>
                         </div>
                     </div>
-                    <div className="z-[1] relative bg-[url(./assets/imge2.png)] bg-no-repeat bg-center bg-cover pt-[75px] px-[45px]">
+                    <div className="z-[1] relative bg-[url(./assets/imge2.png)] bg-no-repeat bg-center bg-cover pt-[50px] md:pt-[75px] px-[45px]">
                         <div className=" z-[-1] absolute top-0 left-0 w-full h-full bg-black/60"></div>
                         <div>
                             <h2 className="font-primary font-bold text-[20px] md:text-[24px] text-white w-[249px]">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h2>
                             <button className="font-primary font-semibold text-white text-[12px] py-[10px] px-[23px] bg-white/60 mt-[20px] md:mt-[52px] mb-[55px] transition-all duration-300 ease-in hover:bg-[#F40404]  hover:text-white">Read more</button>
                         </div>
                     </div>
-                    <div className="z-[1] relative bg-[url(./assets/imge3.png)] bg-no-repeat bg-center bg-cover pt-[75px] px-[45px]">
+                    <div className="z-[1] relative bg-[url(./assets/imge3.png)] bg-no-repeat bg-center bg-cover pt-[50px] md:pt-[75px] px-[45px]">
                         <div className=" z-[-1] absolute top-0 left-0 w-full h-full bg-black/60"></div>
                         <div>
                             <h2 className="font-primary font-bold text-[20px] md:text-[24px] text-white w-[249px]">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h2>

@@ -1,6 +1,9 @@
+import map from "../../assets/map.png"
+
 const Map = () => {
   return (
-    <div className="bg-[url(./assets/map.png)] bg-no-repeat bg-center bg-cover md:w-[100%] h-[450px]">
+    <div>
+      <img src={map} alt="" className="h-[150px] md:h-[450px]"/>
     </div>
   )
 }
