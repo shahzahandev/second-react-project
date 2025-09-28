@@ -3,7 +3,7 @@ import NamePlate2 from '../../assets/NamePlate2.png'
 import NamePlate3 from '../../assets/NamePlate3.png'
 import NamePlate4 from '../../assets/NamePlate4.png'
 import Container from '../Layouts/Container'
-import Flexbox from '../Flexbox/Flexbox'
+
 
 const NamePlate = () => {
     return (
