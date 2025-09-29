@@ -5,8 +5,8 @@ const Services = () => {
         <div className='pt-[28px]'>
             <div className="md:flex md:items-center">
                 <div className="w-[100%] md:w-[50%] px-6 md:px-0">
-                    <div className='flex md:justify-end md:mr-[60px]'>
-                        <div className=' w-[509px]'>
+                    <div className='flex md:justify-end md:mr-[60px] py-[15px] md:py-[0px]'>
+                        <div className='w-[509px]'>
                             <h2 className='font-primary font-bold text-[#000000] text-[32px] md:text-[64px]'>Our Services</h2>
                             <p className='font-primary font-medium text-[14px] md:text-[16px] text-[#6C6C6C] w-[320px] md:w-[405px] m-[10px] my:mt-0'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
