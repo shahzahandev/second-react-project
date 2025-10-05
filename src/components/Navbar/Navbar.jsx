@@ -43,12 +43,12 @@ const Navbar = () => {
                 {/* Responsive Design for small device */}
                 <div className="flex items-center justify-between md:hidden">
                     <div>
-                        <img src={logo} alt="" className="w-[150px]" />
+                        <img src={logo} alt="" />
                     </div>
                     <div className="">
                         {
                             show ?
-                                (<div className="text-center absolute top-[140px] right-0 bg-[#F40404] opacity-95 z-[99999] w-full transition-all duration-700 ease-in-out">
+                                (<div className="text-center absolute top-[140px] right-0 bg-[#F40404] z-[99999] w-full transition-all duration-700 ease-in-out">
                                     <ul className="font-primary font-semibold text-white py-[30px] space-y-5 pl-5">
                                         <li>
                                             <a href="" className=" text-[16px] transition-all duration-300 ease-in hover:text-white/70">Home</a>
@@ -75,10 +75,10 @@ const Navbar = () => {
                         }
                         <div>
                             { show ? (
-                                      <RxCross1 onClick={() => setShow(!show)} className="text-white text-2xl" />
+                                      <RxCross1 onClick={() => setShow(!show)} className="text-white text-2xl animate-pulse" />
                                      ) : 
                                      (
-                                     <FaBars onClick={() => setShow(!show)} className="text-white text-2xl" />
+                                     <FaBars onClick={() => setShow(!show)} className="text-white text-2xl animate-bounce" />
                                      )
                             }
                         </div>

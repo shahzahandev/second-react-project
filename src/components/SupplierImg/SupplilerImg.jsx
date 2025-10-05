@@ -28,3 +28,4 @@ const SupplilerImg = () => {
 }
 
 export default SupplilerImg
+

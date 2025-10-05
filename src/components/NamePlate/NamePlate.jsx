@@ -9,7 +9,7 @@ const NamePlate = () => {
     return (
         <div className='py-[50px] md:py-[117px]'>
             <Container>
-                <div className="md:flex justify-between">
+                <div className="md:flex justify-between animate-pulse">
                     <img src={plate1} alt="" className='w-[60%] mx-auto md:w-[100%]'/>
                     <img src={plate2} alt="" className='w-[60%] mx-auto md:w-[100%]'/>
                     <img src={plate3} alt="" className='w-[60%] mx-auto md:w-[100%]'/>

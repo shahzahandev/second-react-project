@@ -5,7 +5,7 @@ const Company = () => {
     return (
         <div className='font-primary py-[30px] md:py-[136px] bg-[#F0F0F0]'>
             <Container>
-                <div className='md:flex items-center inline-block'>
+                <div className='md:flex items-center inline-block '>
                     <div className='py-[40px] md:py-[100px] px-[100px] md:px-[75px] bg-[#F40404]'>
                         <h2 className=' font-bold text-[24px] md:text-[36px] text-white w-[150px] md:w-[262px]'>Learn more about our company</h2>
                     </div>

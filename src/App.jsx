@@ -12,6 +12,8 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FooterLast from './components/FooterLast/FooterLast'
 import Services from './components/Services/Services'
+// import Slider from 'react-slick'
+// import Slick from './components/Slider/Slider'
 
 function App() {
   return (

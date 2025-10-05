@@ -33,46 +33,46 @@ const Footer = () => {
 
                         <Flexbox className="mt-[17px] md:mt-[34px] list-none  space-x-[12px] text-center" >
                             <li className='flex items-center p-[8px] bg-[#F40404] rounded-[50%] transition-all duration-200 hover:shadow-[0px_0px_10px_rgba(225,100,100,1)]'>
-                                <a href=""><FaFacebookF /></a>
+                                <a href=""><FaFacebookF  className='animate-bounce'/></a>
                             </li>
                             <li className='flex items-center p-[8px] bg-[#F40404] rounded-[50%] transition-all duration-200 hover:shadow-[0px_0px_10px_rgba(225,100,100,1)]'>
-                                <a href=""><FaTwitter /></a>
+                                <a href=""><FaTwitter  className='animate-bounce'/></a>
                             </li>
                             <li className='flex items-center p-[8px] bg-[#F40404] rounded-[50%] transition-all duration-200 hover:shadow-[0px_0px_10px_rgba(225,100,100,1)]'>
-                                <a href=""><FaLinkedinIn /></a>
+                                <a href=""><FaLinkedinIn  className='animate-bounce'/></a>
                             </li>
                             <li className='flex items-center p-[8px] bg-[#F40404] rounded-[50%] transition-all duration-200 hover:shadow-[0px_0px_10px_rgba(225,100,100,1)]'>
-                                <a href=""><FaInstagram /></a>
+                                <a href=""><FaInstagram  className='animate-bounce'/></a>
                             </li>
                         </Flexbox>
                     </div>
-                    <Flexbox className="md:justify-between items-center space-x-[20px] md:space-x-[60px] mt-[30px] md:mt-[0px]">
+                    <div className="md:flex md:justify-between items-center space-x-[20px] md:space-x-[60px] mt-[30px] md:mt-[0px]">
                         <div>
                             <div className='font-primary font-bold text-white text-[14px] md:text-[16px]'>Company</div>
-                            <Flexbox className="flex-col mt-[12px] md:mt-[21px] font-normal font-primary text-[12px] md:text-[14px] text-white space-y-[5px] md:space-y-[15px]">
+                            <Flexbox className="flex-col mt-[21px] font-normal font-primary text-[12px] md:text-[14px] text-white space-y-[10px] md:space-y-[15px]">
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Home</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>About</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Services</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Gallery</a>
                             </Flexbox>
                         </div>
-                        <div>
+                        <div className='mt-8 md:mt-0'>
                             <div className='font-primary font-bold text-white text-[14px] md:text-[16px]'>Others</div>
-                            <Flexbox className="flex-col mt-[12px] md:mt-[21px] font-normal font-primary text-[12px] md:text-[14px] text-white space-y-[5px] md:space-y-[15px]">
+                            <Flexbox className="flex-col mt-[21px] font-normal font-primary text-[12px] md:text-[14px] text-white space-y-[10px] md:space-y-[15px]">
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Blog</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Contact</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Terms & Conditions</a>
                                 <a href="" className='transition-all duration-300 ease-in hover:text-white/70'>Privacy Policy</a>
                             </Flexbox>
                         </div>
-                        <div>
+                        <div className='mt-8 md:mt-0'>
                             <div className='font-primary font-bold text-white text-[14px] md:text-[16px]'>Certificate</div>
-                            <div className="md:flex space-x-[5px] mt-[12px] md:mt-[21px]">
-                                <img src={footer1} alt="" className="scale-75 md:scale-100  ml-[-15px] md:ml-0"/>
-                                <img src={footer2} alt="" className='mt-[-5px] md:mt-0 scale-75 md:scale-100 ml-[-15px] md:ml-0'/>
+                            <div className="flex space-x-[5px] mt-[12px] md:mt-[21px]">
+                                <img src={footer1} alt="" className="animate-pulse"/>
+                                <img src={footer2} alt="" className='animate-pulse'/>
                             </div>
                         </div>
-                    </Flexbox>
+                    </div>
                 </div>
             </Container>
         </div>
